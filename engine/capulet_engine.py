@@ -3,7 +3,7 @@ from Engines import Engine
 
 
 class CapuletEngine(Engine, ABC):
-    def __init__(self,current_mileage, last_service_mileage):
+    def __init__(self, current_mileage, last_service_mileage):
         self._current_mileage = current_mileage
         self._last_service_mileage = last_service_mileage
 
