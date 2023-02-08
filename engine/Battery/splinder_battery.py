@@ -3,7 +3,7 @@ from Battery import Battery
 
 class Splinder(Battery,ABC):
 
-    def __init__(self,last_service_date,current_date):
+    def __init__(self,current_date,last_service_date):
         self._last_service_date = last_service_date
         self._current_date = current_date
 
