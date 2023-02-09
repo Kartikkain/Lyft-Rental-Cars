@@ -35,3 +35,6 @@ class TestSplinderBattery(unittest.TestCase):
         splinder_battery = Splinder(current_date, last_service_date)
         self.assertFalse(splinder_battery.need_service())
 
+
+if __name__ == '__main__':
+    unittest.main()
